@@ -1,0 +1,24 @@
+
+<!--Patient list binding--> 
+<table class="table table-sm table-hover">
+  <tr *ngFor="let patientInfo of patientService.patientList">
+    <td>{{ patientInfo.id}}</td>
+    <td>{{ patientInfo.pasNumber}}</td>
+    <td>{{ patientInfo.foreName }}</td>
+    <td>{{ patientInfo.surName }}</td>
+    <td>{{ patientInfo.dateOfBirth | date:'shortDate' }}</td>
+    <td>{{ patientInfo.sexCode }}</td>
+    <td>{{ patientInfo.homeTelePhoneNumber}}</td>
+    <td>{{ patientInfo.nokName }}</td>
+    <td>{{ patientInfo.nokRelationshipCode }}</td>
+    <td>{{ patientInfo.GPCode}}</td>
+    <td>
+      <a class="btn" style="cursor:pointer;" (click)="showForEdit(patientInfo)">
+        <i class="fa fa-pencil-square-o">Edit</i>
+      </a>
+      <a class="btn text-danger" style="cursor:pointer;" (click)="onDelete(patientInfo.id)">
+        <i class="fa fa-trash-o">Delete</i>
+      </a>
+    </td>
+  </tr>
+</table>

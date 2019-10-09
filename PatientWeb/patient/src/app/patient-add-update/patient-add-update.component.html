@@ -1,0 +1,91 @@
+<form class="ptn-form" #patientForm="ngForm" (ngSubmit)="onSubmit(patientForm)">
+  <input type="hidden" name="ID" #ID="ngModel" [(ngModel)]="patientService.selectedPatient.id">
+  <div class="form-row">
+    <div class="form-group col-md-2">
+      Pas Number <input class="form-control" name="pasNumber" #pasNumber="ngModel" [(ngModel)]="patientService.selectedPatient.pasNumber"
+                        placeholder="Pas Number" required>
+      <div class="validation-error" *ngIf="pasNumber.invalid && pasNumber.touched">This Field is Required.</div>
+    </div>
+    <div class="form-group col-md-2">
+      Fore Name   <input class="form-control" name="foreName" #foreName="ngModel" [(ngModel)]="patientService.selectedPatient.foreName" placeholder="Fore Name"
+                         required>
+      <div class="validation-error" *ngIf="foreName.invalid && foreName.touched">This Field is Required.</div>
+    </div>
+    <div class="form-group col-md-2">
+      Surname
+      <input class="form-control" name="surName" #surName="ngModel" [(ngModel)]="patientService.selectedPatient.surName" placeholder="Surname">
+    </div>
+    <div class="form-group col-md-2">
+      Date of Birth
+      <input class="form-control" name="dateOfBirth" #dateOfBirth="ngModel" [(ngModel)]="patientService.selectedPatient.dateOfBirth" placeholder="Date of Birth">
+    </div>
+  </div>
+  <div class="form-row ">
+   
+  </div>
+  <div class="form-row">
+    
+    <div class="form-group col-md-2">
+      Sex Code
+      <input class="form-control" name="sexCode" #sexCode="ngModel" [(ngModel)]="patientService.selectedPatient.sexCode" placeholder="Sex Code">
+    </div>
+    <div class="form-group col-md-2">
+      Home Telephone Number
+      <input class="form-control" name="homeTelePhoneNumber" #homeTelePhoneNumber="ngModel" [(ngModel)]="patientService.selectedPatient.homeTelePhoneNumber" placeholder="TelePhone Number">
+    </div>
+  </div>
+  <div class="form-row ">
+    <h5>Nik Of Kin Details</h5>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-2">
+      Nok Name
+      <input class="form-control" name="nokName" #nokName="ngModel" [(ngModel)]="patientService.selectedPatient.nokName" placeholder="Nok Name">
+    </div>
+    <div class="form-group col-md-2">
+      Nok Relationship Code
+      <input class="form-control" name="nokRelationshipCode" #nokRelationshipCode="ngModel" [(ngModel)]="patientService.selectedPatient.nokRelationshipCode" placeholder="Nok Relationship Code">
+    </div>
+    <div class="form-group col-md-2">
+      Nok Address Line 1
+      <input class="form-control" name="nokAddressLine1" #nokAddressLine1="ngModel" [(ngModel)]="patientService.selectedPatient.nokAddressLine1" placeholder="Nok Adress Line 1">
+    </div>
+    <div class="form-group col-md-2">
+      Nok Post Code
+      <input class="form-control" name="nokPostCode" #nokPostCode="ngModel" [(ngModel)]="patientService.selectedPatient.nokPostCode" placeholder="Nok Post Code">
+    </div>
+  </div>
+  <div class="form-row ">
+   <h5>GP Details</h5>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-2">
+      GP Code
+      <input class="form-control" name="GPCode" #GPCode="ngModel" [(ngModel)]="patientService.selectedPatient.GPCode" placeholder="GP Code">
+    </div>
+    <div class="form-group col-md-2">
+      GP Surname
+      <input class="form-control" name="GPSurname" #GPSurname="ngModel" [(ngModel)]="patientService.selectedPatient.GPSurname" placeholder="GP Surname">
+    </div>
+    <div class="form-group col-md-2">
+      GP Initials
+      <input class="form-control" name="GPInitials" #GPInitials="ngModel" [(ngModel)]="patientService.selectedPatient.GPInitials" placeholder="GP Initials">
+    </div>
+    <div class="form-group col-md-2">
+      GP Phone
+      <input class="form-control" name="GPPhone" #GPPhone="ngModel" [(ngModel)]="patientService.selectedPatient.GPPhone" placeholder="GP Phone">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-2">
+      <button [disabled]="!patientForm.valid" type="submit" class="btn btn-lg btn-block btn-info">
+        <i class="fa fa-floppy-o"></i> Submit
+      </button>
+    </div>
+    <div class="form-group col-md-2">
+      <button type="button" class="btn btn-lg btn-block btn-secondary" (click)="resetForm(patientForm)">
+        <i class="fa fa-repeat"></i> Reset
+      </button>
+    </div>
+  </div>
+</form>

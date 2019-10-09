@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\patient",
+    "\\patient\\src",
+    "\\patient\\src\\app",
+    "\\patient\\src\\app\\home",
+    "\\patient\\src\\app\\patient-add-update",
+    "\\patient\\src\\app\\patient-list",
+    "\\patient\\src\\app\\shared"
+  ],
+  "SelectedNode": "\\patient\\src\\app\\patient-add-update\\patient-add-update.component.ts",
+  "PreviewInSolutionExplorer": false
+}
