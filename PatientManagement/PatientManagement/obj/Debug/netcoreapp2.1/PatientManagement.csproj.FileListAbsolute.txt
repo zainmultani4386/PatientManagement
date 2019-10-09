@@ -1,0 +1,14 @@
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\bin\Debug\netcoreapp2.1\PatientManagement.deps.json
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\bin\Debug\netcoreapp2.1\PatientManagement.runtimeconfig.json
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\bin\Debug\netcoreapp2.1\PatientManagement.runtimeconfig.dev.json
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\bin\Debug\netcoreapp2.1\PatientManagement.dll
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\obj\Debug\netcoreapp2.1\PatientManagement.csprojAssemblyReference.cache
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\obj\Debug\netcoreapp2.1\PatientManagement.csproj.CoreCompileInputs.cache
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\obj\Debug\netcoreapp2.1\PatientManagement.RazorAssemblyInfo.cache
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\obj\Debug\netcoreapp2.1\PatientManagement.RazorAssemblyInfo.cs
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\obj\Debug\netcoreapp2.1\PatientManagement.AssemblyInfoInputs.cache
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\obj\Debug\netcoreapp2.1\PatientManagement.AssemblyInfo.cs
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\obj\Debug\netcoreapp2.1\PatientManagement.RazorTargetAssemblyInfo.cache
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\bin\Debug\netcoreapp2.1\PatientManagement.pdb
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\obj\Debug\netcoreapp2.1\PatientManagement.dll
+C:\Users\united state\source\repos\PatientManagement\PatientManagement\obj\Debug\netcoreapp2.1\PatientManagement.pdb
